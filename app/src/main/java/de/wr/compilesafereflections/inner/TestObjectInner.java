@@ -4,14 +4,21 @@ package de.wr.compilesafereflections.inner;
  * Created by wolfgangreithmeier on 18/11/17.
  */
 
-public class InnerObject {
+public class TestObjectInner {
     private int test;
+    private boolean testB;
+    private float testF;
+    private double testD;
+    private long testL;
+    private short testS;
+    private char testC;
+    private byte testByte;
 
-    public int getTest() {
+    private int getTest() {
         return test;
     }
 
-    public void setTest(int test) {
+    private void setTest(int test) {
         this.test = test;
     }
 }
